@@ -27,6 +27,6 @@ def predict():
 if __name__ == '__main__':
     # model = torch.hub.load('ultralytics/yolov5', 'yolov5n', force_reload=True, skip_validation=True)
     # model = yolov5.load('fcakyon/yolov5s-v7.0')
-    model = yolov5.load('yolov5m-garbage')
+    model = yolov5.load('keremberke/yolov5m-garbage')
     app.run(host='0.0.0.0', debug=True, port=5000)
 
