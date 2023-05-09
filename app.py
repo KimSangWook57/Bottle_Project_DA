@@ -25,8 +25,7 @@ def predict():
         return results.pandas().xyxy[0].to_json(orient='records')
 
 if __name__ == '__main__':
-    # model = torch.hub.load('ultralytics/yolov5', 'yolov5n', force_reload=True, skip_validation=True)
-    # model = yolov5.load('fcakyon/yolov5s-v7.0')
     model = yolov5.load('keremberke/yolov5m-garbage')
+    # model = torch.hub.load('ultralytics/yolov5', 'yolov5n', force_reload=True, skip_validation=True)
     app.run(host='0.0.0.0', debug=True, port=5000)
 

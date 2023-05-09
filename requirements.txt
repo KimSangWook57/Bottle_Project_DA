@@ -1,0 +1,7 @@
+flask
+pandas
+seaborn
+torch
+torchvision
+torchaudio
+yolov5
