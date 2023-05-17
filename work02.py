@@ -1,7 +1,8 @@
 import os
 import json
 import shutil
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # 이미지와 JSON 파일이 있는 폴더 경로
 image_folder = 'data\sample_image'
