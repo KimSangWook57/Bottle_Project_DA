@@ -1,0 +1,705 @@
+{
+	"objects": [
+		{
+			"id": "87689994-0fe7-4a31-9adc-deca2b964dca",
+			"class_id": "916ce2cb-6bee-423f-98a5-61dc70f57c53",
+			"tracking_id": 1,
+			"class_name": "c_3",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 557.4393709884381,
+					"y": 305.06,
+					"width": 222.5706290115619,
+					"height": 188.0342291324028
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFDFD5"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "a63e8283-58ec-42e5-8448-f75db2e59c15",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 2,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1176.3564839022551,
+					"y": 391.1104791474416,
+					"width": 310.87364902557533,
+					"height": 139.32594221072208
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "0524a2b5-765f-4ac5-8513-f3982b6eb179",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 3,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1196.5304478847445,
+					"y": 665.9417617203371,
+					"width": 257.23395431998165,
+					"height": 217.05823827966287
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "a92f4a69-86b7-4a93-9f64-ea50a903fcff",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 4,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 874.5236399335847,
+					"y": 119.045220919975,
+					"width": 159.5890776621461,
+					"height": 368.63987357494074
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "a019faa2-2df3-4fad-977f-6a8b8bba12a8",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 5,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 920.4306324055814,
+					"y": 485.06942565261534,
+					"width": 135.3547494675064,
+					"height": 301.25420278172487
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "6e3382f3-2efc-483b-b87c-b2a9f142da19",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 7,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 518.8370845782001,
+					"y": 566.6273597776838,
+					"width": 402.04156667191205,
+					"height": 308.21724693536464
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "3fd7f130-0709-4a2c-8b73-b6fdccc60794",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 8,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1185.3769918064002,
+					"y": 140.84226790468344,
+					"width": 302.1526282831312,
+					"height": 240.6982757767838
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "6277b4c6-f548-4927-b470-fb21173696b4",
+			"class_id": "06852717-c0c4-4200-a1ae-3648413cc30a",
+			"tracking_id": 9,
+			"class_name": "c_3_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1323.09,
+					"y": 528.9790692453579,
+					"width": 163.81358708519838,
+					"height": 147.0336178576771
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#D1C8FF"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "12bd3b8e-3a73-47d7-971b-c6f11cf9aa73",
+			"class_id": "85cc57ee-fe38-4955-b797-40cab1f2e7d7",
+			"tracking_id": 10,
+			"class_name": "c_6_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1450.8406083798404,
+					"y": 666.3952396204817,
+					"width": 89.7598912422543,
+					"height": 188.33741847731926
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#EE0A00"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "8725f543-e12c-4c33-80ca-a1da25a17506",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 11,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 959.465274085226,
+					"y": 0,
+					"width": 245.63572380297876,
+					"height": 117.7299468347489
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "fcfc6dd4-b4c3-4cb8-ab07-f196f7966591",
+			"class_id": "3cb81173-41f1-4cc4-8415-dc3b33dc14b4",
+			"tracking_id": 12,
+			"class_name": "c_5_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1059.7956711103745,
+					"y": 568.1983792366542,
+					"width": 156.4989143596456,
+					"height": 207.045349990389
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#76C923"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "2eff90a7-1656-4973-9ebf-017aa7046d39",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 14,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1007.8067843207972,
+					"y": 154.55819321026763,
+					"width": 203.84788138458873,
+					"height": 445.884718552515
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "d2a710b5-ae98-4215-9c17-ca41db786d52",
+			"class_id": "ff9d8d39-b7fc-42fb-be1f-1ca9fbb6733a",
+			"tracking_id": 15,
+			"class_name": "c_4_02_03_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 474.91865961340704,
+					"y": 349.3580974581709,
+					"width": 200.0126336240487,
+					"height": 361.3819025418291
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#CCDE0C"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "ca2de2ea-9eb8-456c-94b0-d35e178e8411",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 19,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 959.9737188500976,
+					"y": 775.6305240388067,
+					"width": 239.5961121142027,
+					"height": 107.3694759611933
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "6429c302-6b6b-4198-9fef-8b23ed03d5d8",
+			"class_id": "85cc57ee-fe38-4955-b797-40cab1f2e7d7",
+			"tracking_id": 21,
+			"class_name": "c_6_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 556.714702677647,
+					"y": 0,
+					"width": 389.1550311059424,
+					"height": 372.43443006223777
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#EE0A00"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "c390ec3b-b57e-4685-9bc4-e9420aa56a8b",
+			"class_id": "a3573c52-ceb9-4f8d-acfe-d556aa018936",
+			"tracking_id": 22,
+			"class_name": "c_5_02",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 266.3489494675615,
+					"y": 0,
+					"width": 127.88716891699619,
+					"height": 251.96615553629704
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#B8FFD0"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "c909140f-3ac6-4d55-8b6f-85af235a9900",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 23,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1320.45138695047,
+					"y": 0,
+					"width": 53.00713232689782,
+					"height": 27.413079850743628
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "66e4408c-b5d3-487e-8337-7615a9901b65",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 26,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 848.8335570895764,
+					"y": 772.7415503374734,
+					"width": 123.90223837989254,
+					"height": 110.25844966252657
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "9c2f2e95-9c11-4968-b6ac-6d8a7fec6c08",
+			"class_id": "3cb81173-41f1-4cc4-8415-dc3b33dc14b4",
+			"tracking_id": 27,
+			"class_name": "c_5_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 573.3552947903991,
+					"y": 836.2418825134797,
+					"width": 271.04233602500585,
+					"height": 46.75811748652029
+				},
+				"meta": {
+					"z_index": 0,
+					"visible": true,
+					"alpha": 1,
+					"color": "#76C923"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "f5c62380-0ad5-4629-b5d3-6a68f9f8e68b",
+			"class_id": "a3573c52-ceb9-4f8d-acfe-d556aa018936",
+			"tracking_id": 28,
+			"class_name": "c_5_02",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 555.7440857422365,
+					"y": 0,
+					"width": 72.8306766965685,
+					"height": 66.92986611230656
+				},
+				"meta": {
+					"z_index": 1,
+					"visible": true,
+					"alpha": 1,
+					"color": "#B8FFD0"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "7dad2f63-5253-4056-9a37-052b7a886a13",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 29,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 391.4533905527351,
+					"y": 43.40591929264643,
+					"width": 229.00001293657579,
+					"height": 196.75159512544644
+				},
+				"meta": {
+					"z_index": 2,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "2115fef4-b2f6-4c09-9068-6d4cd7303e46",
+			"class_id": "a3573c52-ceb9-4f8d-acfe-d556aa018936",
+			"tracking_id": 30,
+			"class_name": "c_5_02",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 347.9723713440126,
+					"y": 0,
+					"width": 130.44303274613355,
+					"height": 39.057822347780956
+				},
+				"meta": {
+					"z_index": 3,
+					"visible": true,
+					"alpha": 1,
+					"color": "#B8FFD0"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "7f1da094-3603-40f0-9e7c-4c94c8c3ce8d",
+			"class_id": "0a796208-afce-4074-99d5-5ca51945905b",
+			"tracking_id": 31,
+			"class_name": "c_8_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 373.812717294143,
+					"y": 255.6618193776626,
+					"width": 75.76272617730643,
+					"height": 51.2072258091701
+				},
+				"meta": {
+					"z_index": 4,
+					"visible": true,
+					"alpha": 1,
+					"color": "#00CECE"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "62928ab8-2cc6-40f9-bccb-07047386b194",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 32,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 449.27601799608465,
+					"y": 205.95188544221244,
+					"width": 131.4618070455242,
+					"height": 146.1352591831347
+				},
+				"meta": {
+					"z_index": 5,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "a5229094-ae7e-4636-9043-6f8987ab641d",
+			"class_id": "85cc57ee-fe38-4955-b797-40cab1f2e7d7",
+			"tracking_id": 33,
+			"class_name": "c_6_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 354.3287407172964,
+					"y": 389.88142796170405,
+					"width": 135.03689334200402,
+					"height": 145.12078425623838
+				},
+				"meta": {
+					"z_index": 6,
+					"visible": true,
+					"alpha": 1,
+					"color": "#EE0A00"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "9b773d58-6918-421f-870d-c01f0bd08a5e",
+			"class_id": "85cc57ee-fe38-4955-b797-40cab1f2e7d7",
+			"tracking_id": 34,
+			"class_name": "c_6_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 297.08983824573903,
+					"y": 475.02514853450725,
+					"width": 258.28904110217064,
+					"height": 407.97485146549275
+				},
+				"meta": {
+					"z_index": 7,
+					"visible": true,
+					"alpha": 1,
+					"color": "#EE0A00"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "281c2b41-9c04-47f2-b4bb-565970d79d71",
+			"class_id": "931b64ac-591e-4c5b-b88b-09e146d7c254",
+			"tracking_id": 35,
+			"class_name": "c_7",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 274.07051251043674,
+					"y": 733.4030922538968,
+					"width": 82.04050366256888,
+					"height": 149.59690774610317
+				},
+				"meta": {
+					"z_index": 8,
+					"visible": true,
+					"alpha": 1,
+					"color": "#AFFFFF"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "6f6a51e9-bd95-4c68-a8e6-0d447ab96911",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 36,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 270.2360113217897,
+					"y": 851.2876856503691,
+					"width": 38.77055700841896,
+					"height": 31.7123143496309
+				},
+				"meta": {
+					"z_index": 9,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "eba856a8-e957-4cb6-b55f-c54394685064",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 37,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1036.9066943479436,
+					"y": 641.10969760616,
+					"width": 47.31426282507573,
+					"height": 59.292608095891296
+				},
+				"meta": {
+					"z_index": 10,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "77b99d79-8086-4357-a3f0-9fde5c78f5d8",
+			"class_id": "916ce2cb-6bee-423f-98a5-61dc70f57c53",
+			"tracking_id": 38,
+			"class_name": "c_3",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1077.0789498418967,
+					"y": 69.50249782890208,
+					"width": 47.35055947610408,
+					"height": 55.24236956327812
+				},
+				"meta": {
+					"z_index": 11,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFDFD5"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "31035106-d09f-4fd3-9654-488cef17310b",
+			"class_id": "931b64ac-591e-4c5b-b88b-09e146d7c254",
+			"tracking_id": 39,
+			"class_name": "c_7",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1284.8954464051953,
+					"y": 30.48211794310845,
+					"width": 75.41018149644106,
+					"height": 67.0800019061306
+				},
+				"meta": {
+					"z_index": 12,
+					"visible": true,
+					"alpha": 1,
+					"color": "#AFFFFF"
+				}
+			},
+			"properties": []
+		}
+	],
+	"categories": {
+		"properties": []
+	},
+	"Image": "A1C_20220818_003168.jpg",
+	"Info": {
+		"PLACE": "실내",
+		"GPS": "36.18211179982212/128.47765279972222",
+		"ADDRESS": " 대한민국 39159 경상북도 구미시 송백로",
+		"METHOD": "A1C",
+		"DATE": "2022-08-18",
+		"DAY/NIGHT": "주간",
+		"DEVICE": "HU205",
+		"BRAND": "HUENTEK",
+		"RESOLUTION": "1847/883",
+		"COLOR": 1,
+		"ROTATE": 0,
+		"EXPOSURE": "0.002",
+		"ISO": 0
+	}
+}

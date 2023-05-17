@@ -1,0 +1,111 @@
+{
+	"objects": [
+		{
+			"id": "020f13a2-5a88-4ede-8c3d-d82b7228abf6",
+			"class_id": "e92309a9-1d10-407f-b459-32b664bd0d0f",
+			"tracking_id": 1,
+			"class_name": "c_5_01_01",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 926.2229839304142,
+					"y": 233.87247530591185,
+					"width": 321.312103788884,
+					"height": 168.82500368568486
+				},
+				"meta": {
+					"z_index": 1,
+					"visible": true,
+					"alpha": 1,
+					"color": "#FFC8D9"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "a61b7612-d0ca-47d4-877a-8854deeb153c",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 2,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1066.4566563467492,
+					"y": 751.2394220846234,
+					"width": 236.89960194604146,
+					"height": 131.76057791537664
+				},
+				"meta": {
+					"z_index": 2,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "af637596-8566-4737-a886-14453792ac97",
+			"class_id": "292c5b9c-e203-4ec1-9ca8-7579273fc70c",
+			"tracking_id": 3,
+			"class_name": "c_6",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 295.8522040395105,
+					"y": 751.2394220846234,
+					"width": 193.3318590594132,
+					"height": 131.76057791537664
+				},
+				"meta": {
+					"z_index": 3,
+					"visible": true,
+					"alpha": 1,
+					"color": "#C9F6EA"
+				}
+			},
+			"properties": []
+		},
+		{
+			"id": "2ea9e6c8-8457-43ab-8857-889c6aa0c61d",
+			"class_id": "88d08031-3b2f-43d8-b718-10ab841f3658",
+			"tracking_id": 4,
+			"class_name": "c_4_03",
+			"annotation_type": "box",
+			"annotation": {
+				"coord": {
+					"x": 1450.3973905351615,
+					"y": 153.54444935869088,
+					"width": 58.54415450390684,
+					"height": 46.29072681704258
+				},
+				"meta": {
+					"z_index": 4,
+					"visible": true,
+					"alpha": 1,
+					"color": "#E3F9CD"
+				}
+			},
+			"properties": []
+		}
+	],
+	"categories": {
+		"properties": []
+	},
+	"Image": "A1C_20220819_001668.jpg",
+	"Info": {
+		"PLACE": "실내",
+		"GPS": "36.18211179982212/128.47765279972222",
+		"ADDRESS": " 대한민국 39159 경상북도 구미시 송백로",
+		"METHOD": "A1C",
+		"DATE": "2022-08-19",
+		"DAY/NIGHT": "주간",
+		"DEVICE": "HU205",
+		"BRAND": "HUENTEK",
+		"RESOLUTION": "1847/883",
+		"COLOR": 1,
+		"ROTATE": 0,
+		"EXPOSURE": "0.002",
+		"ISO": 0
+	}
+}

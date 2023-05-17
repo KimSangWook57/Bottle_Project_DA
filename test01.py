@@ -3,7 +3,7 @@ import yolov5
 
 # Model
 # model = yolov5.load("ultralytics/yolov5", "yolov5m")  # or yolov5n - yolov5x6, custom
-model = yolov5.load("keremberke/yolov5m-garbage") # yolov5 최신 버전에서만 작동함
+model = yolov5.load("keremberke/yolov5s-garbage") # yolov5 최신 버전에서만 작동함
 # 기본 모델 중에서는 m이 결과가 가장 좋은듯?
 
 # Images
