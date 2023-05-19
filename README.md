@@ -31,7 +31,8 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 - app.py = 모델 실행 
 - cuda.py = cuda 실행 테스트(방법은 공부중)
 - test01.py = yolov5 테스트
-- work02.py = 이미지 전처리 코드(data 폴더의 sample_image와 sample_json의 파일들을 preprocessed_image와 preprocessed_json에 정리)
+- work01.py = 이미지 분류 코드(data 폴더의 sample_image와 sample_json의 파일들을 preprocessed_image와 preprocessed_json에 정리)
+- work02.py = 이미지 전처리 코드(분류 기준을 나누어서 각 폴더에 원 이미지들을 bbox 기준으로 잘라내어 224*224 크기로 맞추었음)
 
 
 
