@@ -2,4 +2,3 @@ flask
 pandas
 seaborn
 yolov5
-tensorflow==2.10.0
