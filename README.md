@@ -5,7 +5,6 @@
 ### 가상환경 및 모델학습에 사용한 버전
 - Windows 10
 - Python 3.10.10
-- tensorflow 2.10.0
 - cuda 11.2.0
 - cuDNN v8.1.0 
 
