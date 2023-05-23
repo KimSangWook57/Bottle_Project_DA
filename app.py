@@ -31,7 +31,7 @@ def predict():
         # 모델에 사진을 넣어서 판별
         results = model(im, size=640)
         # 결과를 사진으로 저장
-        results.save()
+        results.save(save_dir=RESULTS_DIR)
         # bbox 값을 딕셔너리에 담아서 json으로 전달
         return jsonify(results.pandas().xyxy[0].to_dict('records'))
     
