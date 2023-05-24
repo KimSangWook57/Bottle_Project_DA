@@ -1,4 +1,6 @@
 import io
+import os
+import base64
 import yolov5
 import torch
 
@@ -31,8 +33,16 @@ def predict():
         results = model(im, size=640)
         # 결과를 사진으로 저장
         results.save(save_dir=RESULTS_DIR)
-        # bbox 값을 딕셔너리에 담아서 json으로 전달
-        return jsonify(results.pandas().xyxy[0].to_dict('records'))
+        image_path = os.path.join(RESULTS_DIR, 'image0.jpg')
+        # 이미지를 Base64로 인코딩하여 JSON 응답에 포함
+        with open(image_path, 'rb') as f:
+            encoded_image = base64.b64encode(f.read()).decode('utf-8')
+        # 변환한 이미지와 bbox 값을 딕셔너리에 담아서 JSON으로 전달
+        response_data = {
+            'image': encoded_image,
+            'bbox': results.pandas().xyxy[0].to_dict('records')
+        }
+        return jsonify(response_data)
     
     except ValueError as e:
         return jsonify({'error': str(e)}), 400
@@ -50,4 +60,3 @@ if __name__ == '__main__':
         exit(1)
     
     app.run(host='0.0.0.0', debug=True, port=55000)
-
