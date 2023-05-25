@@ -39,11 +39,14 @@ def predict():
             encoded_image = base64.b64encode(f.read()).decode('utf-8')
         # 변환한 이미지와 bbox 값을 딕셔너리에 담아서 JSON으로 전달
         response_data = {
-            'image': encoded_image,
+            'image': {
+                'data': encoded_image,
+                'format': 'base64'
+            },
             'bbox': results.pandas().xyxy[0].to_dict('records')
         }
         return jsonify(response_data)
-    
+
     except ValueError as e:
         return jsonify({'error': str(e)}), 400
     
