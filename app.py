@@ -55,9 +55,11 @@ def predict():
 
 if __name__ == '__main__':
     try:
-        model = yolov5.load('keremberke/yolov5s-garbage')
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        # model = yolov5.load('keremberke/yolov5s-garbage')
         # model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # yolov5n - yolov5x6 official model
         # model = torch.load('best_model.pt')  # custom model
+        model.load_state_dict(torch.load("best_model.pt", map_location=device))
     except Exception as e:
         print(f'Failed to load model: {str(e)}')
         exit(1)
