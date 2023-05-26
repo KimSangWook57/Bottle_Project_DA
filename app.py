@@ -2,6 +2,7 @@ import io
 import os
 import base64
 import yolov5
+import shutil
 import torch
 
 from flask import Flask, request, jsonify
@@ -45,6 +46,8 @@ def predict():
             },
             'bbox': results.pandas().xyxy[0].to_dict('records')
         }
+        # 결과 폴더 삭제
+        shutil.rmtree(RESULTS_DIR)
         return jsonify(response_data)
 
     except ValueError as e:
@@ -55,11 +58,9 @@ def predict():
 
 if __name__ == '__main__':
     try:
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        # model = yolov5.load('keremberke/yolov5s-garbage')
+        model = yolov5.load('keremberke/yolov5s-garbage')
         # model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # yolov5n - yolov5x6 official model
         # model = torch.load('best_model.pt')  # custom model
-        model.load_state_dict(torch.load("best_model.pt", map_location=device))
     except Exception as e:
         print(f'Failed to load model: {str(e)}')
         exit(1)
