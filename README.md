@@ -14,7 +14,7 @@ py -3.10 -m venv venv
 .\venv\Scripts\activate
 ```
 
-### 설치 예시
+### 설치 예시(cuda ver.)
 Windows
 ```
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ pip3 install torch torchvision torchaudio
 - sample_data = 전처리 과정(원본 이미지에서, json 파일에 적힌 bbox 좌표값대로 자른 이미지를 224x224 크기로 변환)을 거친 이미지들을 데이터셋에 따른 분류 방식(갈색병/갈색병+포장재/녹색병/녹색병+포장재/투명한병/투명한병+포장재/재사용병(소주병+맥주병)/재사용병+포장재/기타)으로 9개의 폴더에 각각 100개씩 넣어 놓았음
 
 ### 코드 설명
-- app.py = 모델 실행 
+- app.py = 모델 실행(이미지를 넣으면 판별한 이미지와 bbox 값을 반환)
 - cuda.py = cuda 실행 테스트(방법은 공부중)
 - test01.py = yolov5 테스트
 - work01.py = 이미지 분류 코드(data 폴더의 sample_image와 sample_json의 파일들을 preprocessed_image와 preprocessed_json에 정리)
