@@ -1,6 +1,7 @@
 # Bottle_Project_DA
 - 병 판별 프로젝트를 수행하며 배운 데이터 분석 관련 모델과 코드를 모아 놓았습니다. 아직 난잡한 코드가 많습니다.
 - 기획서 docs : https://docs.google.com/document/d/1MNx_ZBxme7EzghV2o5YCM3HD9PrhmfMrc4ZL8C719ng/edit?usp=sharing
+- 분석 보고서 : https://github.com/KimSangWook57/Bottle_Project_DA/blob/main/notebooks/report.ipynb
 ## 실행방법
 ### 가상환경 및 모델학습에 사용한 버전
 - Windows 10
@@ -29,7 +30,7 @@ pip3 install torch torchvision torchaudio
 ### 폴더 설명
 - notebooks = jupyter notebook으로 모델 생성 코드를 돌린 결과들을 모아 놓았음
   - report.ipynb = 병 판별 데이터셋 및 모델 분석 코드
-  - model.py = 모델 생성 풀코드
+  - model.ipynb = 모델 생성 풀코드
 - sample_data = 전처리 과정(원본 이미지에서, json 파일에 적힌 bbox 좌표값대로 자른 이미지를 224x224 크기로 변환)을 거친 이미지들을 데이터셋에 따른 분류 방식(갈색병/갈색병+포장재/녹색병/녹색병+포장재/투명한병/투명한병+포장재/재사용병(소주병+맥주병)/재사용병+포장재/기타)으로 9개의 폴더에 각각 100개씩 넣어 놓았음
 
 ### 코드 설명
