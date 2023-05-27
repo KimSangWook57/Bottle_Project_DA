@@ -1,6 +1,7 @@
 # Bottle_Project_DA
 - 병 판별 프로젝트를 수행하며 배운 데이터 분석 관련 모델과 코드를 모아 놓았습니다. 아직 난잡한 코드가 많습니다.
 - 기획서 docs : https://docs.google.com/document/d/1MNx_ZBxme7EzghV2o5YCM3HD9PrhmfMrc4ZL8C719ng/edit?usp=sharing
+- 분석 보고서 : https://github.com/KimSangWook57/Bottle_Project_DA/blob/main/notebooks/report.ipynb
 ## 실행방법
 ### 가상환경 및 모델학습에 사용한 버전
 - Windows 10
