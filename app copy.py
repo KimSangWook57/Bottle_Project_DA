@@ -37,34 +37,40 @@ def predict():
         im = Image.open(io.BytesIO(im_bytes))
 
         # 이미지 크기 조정
-        target_size = (400, 400)
-        transform = transforms.Resize(target_size)
-        im = transform(im)
+        transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),  # 색감 조정
+            transforms.ToTensor(),  # 이미지를 텐서로 변환
+            transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])  # 이미지 정규화
+        ])
 
-        # 이미지를 Tensor로 변환
-        transform = transforms.ToTensor()
-        im_tensor = transform(im)
-
-        # 이미지를 Tensor로 변환
-        transform = transforms.ToTensor()
         # 이미지 차원을 추가하여 4D Tensor로 변환
         im_tensor = torch.unsqueeze(transform(im), 0)
         # 모델에 Tensor 이미지를 넣어서 판별
         results = model(im_tensor)
 
-        # 결과를 사진으로 저장
-        # results.save(save_dir=RESULTS_DIR)
-        # image_path = os.path.join(RESULTS_DIR, 'image0.jpg')
-        # 이미지를 Base64로 인코딩하여 JSON 응답에 포함
-        # with open(image_path, 'rb') as f:
-        #     encoded_image = base64.b64encode(f.read()).decode('utf-8')
         # 변환한 이미지와 bbox 값을 딕셔너리에 담아서 JSON으로 전달
         response_data = {
-            'bbox': results.tolist()
+            'key': results.tolist()
         }
 
-        # 결과 폴더 삭제
-        # shutil.rmtree(RESULTS_DIR)
+        # 모델의 출력값 가져오기
+        output_values = results[0].tolist()
+
+        # 가장 높은 출력값과 해당 인덱스 가져오기
+        max_value = max(output_values)
+        max_index = output_values.index(max_value)
+
+        # 인덱스에 해당하는 클래스 가져오기
+        class_mapping = ["brown_bottle", "clear_bottle", "green_bottle"]
+        predicted_class = class_mapping[max_index]
+
+        # 결과 출력
+        print("모델이 판단한 클래스:", predicted_class)
+
+        # 결과를 JSON으로 전달
+        response_data['predicted_class'] = predicted_class
+
         return jsonify(response_data)
 
     except ValueError as e:

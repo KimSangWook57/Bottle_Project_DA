@@ -28,7 +28,7 @@ class Model(nn.Module):
         self.flatten = nn.Flatten()
         self.fc1 = nn.Linear(256 * 6 * 6, 128)
         self.dropout = nn.Dropout(0.5)
-        self.fc2 = nn.Linear(128, 9)
+        self.fc2 = nn.Linear(128, 3)
         
     def forward(self, x):
         x = nn.functional.relu(self.conv1(x))
