@@ -634,5 +634,5 @@ $RECYCLE.BIN/
 
 # 사용자 지정
 *.csv
-/results
+/images
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,intellij,python,venv,java,node,react,eclipse
