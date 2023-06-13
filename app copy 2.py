@@ -1,7 +1,6 @@
 import io
 import os
 import base64
-import yolov5
 import shutil
 import torch
 
@@ -60,8 +59,6 @@ def predict():
 
 if __name__ == '__main__':
     try:
-        # model = yolov5.load('keremberke/yolov5s-garbage')
-        # model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # yolov5n - yolov5x6 official model
         model = torch.hub.load("ultralytics/yolov5", 'custom', path="best.pt")
     except Exception as e:
         print(f'Failed to load model: {str(e)}')
