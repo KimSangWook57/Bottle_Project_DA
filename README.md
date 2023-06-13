@@ -49,6 +49,7 @@ pip3 install torch torchvision torchaudio
 - Week05 : 간단한 이미지 판별 모델 생성 및 훈련
 - Week06 : 모델 정확도 업데이트
 - Week07 : 데이터셋 정리 및 새로운 라벨링 예정(yolov5용)
+- Week08 : yolov5 커스텀 모델 개발(병 재질 및 색상 판단)
 
 ### ToDo
 
