@@ -1,6 +1,7 @@
 import io
 import os
 import base64
+import yolov5
 import shutil
 import torch
 
@@ -31,8 +32,6 @@ def predict():
         im = Image.open(io.BytesIO(im_bytes))
         # 모델에 사진을 넣어서 판별
         results = model(im, size=640)
-        # 결과 확인 코드
-        results.show()
         # 결과를 사진으로 저장
         results.save(save_dir=RESULTS_DIR)
         image_path = os.path.join(RESULTS_DIR, 'image0.jpg')
@@ -59,7 +58,9 @@ def predict():
 
 if __name__ == '__main__':
     try:
-        model = torch.hub.load("ultralytics/yolov5", 'custom', path="best.pt")
+        model = yolov5.load('keremberke/yolov5s-garbage')
+        # model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # yolov5n - yolov5x6 official model
+        # model = torch.load('best_model.pt')  # custom model
     except Exception as e:
         print(f'Failed to load model: {str(e)}')
         exit(1)
