@@ -16,10 +16,13 @@ py -3.10 -m venv venv
 ```
 
 ### 설치 예시(cuda ver.)
-Windows
 ```
 pip install -r requirements.txt
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+```
+Windows
+```
+(torch 버전 오류시 삭제 후 다음 버전을 설치할 것)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117 
 ```
 
 Linux
